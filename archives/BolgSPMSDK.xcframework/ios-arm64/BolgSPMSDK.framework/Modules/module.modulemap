@@ -1,0 +1,11 @@
+framework module BolgSPMSDK {
+  umbrella header "BolgSPMSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module BolgSPMSDK.Swift {
+  header "BolgSPMSDK-Swift.h"
+  requires objc
+}

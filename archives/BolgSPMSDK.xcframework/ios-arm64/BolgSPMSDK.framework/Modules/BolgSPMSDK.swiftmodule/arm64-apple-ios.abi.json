@@ -1,0 +1,135 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "BolgSPMSDK",
+        "printedName": "BolgSPMSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10BolgSPMSDKAAV4textSSvp",
+            "mangledName": "$s10BolgSPMSDKAAV4textSSvp",
+            "moduleName": "BolgSPMSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10BolgSPMSDKAAV4textSSvg",
+                "mangledName": "$s10BolgSPMSDKAAV4textSSvg",
+                "moduleName": "BolgSPMSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BolgSPMSDK",
+                "printedName": "BolgSPMSDK.BolgSPMSDK",
+                "usr": "s:10BolgSPMSDKAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10BolgSPMSDKAAVABycfc",
+            "mangledName": "$s10BolgSPMSDKAAVABycfc",
+            "moduleName": "BolgSPMSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10BolgSPMSDKAAV",
+        "mangledName": "$s10BolgSPMSDKAAV",
+        "moduleName": "BolgSPMSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplaceMe",
+        "printedName": "ReplaceMe",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "main",
+            "printedName": "main()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10BolgSPMSDK9ReplaceMeC4mainSSyF",
+            "mangledName": "$s10BolgSPMSDK9ReplaceMeC4mainSSyF",
+            "moduleName": "BolgSPMSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10BolgSPMSDK9ReplaceMeC",
+        "mangledName": "$s10BolgSPMSDK9ReplaceMeC",
+        "moduleName": "BolgSPMSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vip\/Downloads\/Github\/BolgSPMSDK\/Sources\/BolgSPMSDK\/Classes\/BolgSPMSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 62,
+      "length": 15,
+      "value": "\"Hello, World!\""
+    }
+  ]
+}
